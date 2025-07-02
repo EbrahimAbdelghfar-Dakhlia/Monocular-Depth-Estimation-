@@ -1,0 +1,9 @@
+depth_anything:
+  ros__parameters:
+    # Model configuration
+    model_file : '/home/ebrahim/Depth_using_mono_ws/src/depth_anything_v2_ros2/models/depth_anything_v2_metric_hypersim_vits.pth'
+    encoder: vits
+    device : 'cuda:0'
+    # ROS topic configuration
+    image_topic: /image_rect
+    depth_image_topic : /depth
